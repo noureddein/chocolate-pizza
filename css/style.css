@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amiri&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+html {
+    width: 80%;
+    margin: auto;
+}
+body {
+    margin: 0;
+    background-color: #ddd;
+}
+.logo {
+    /* display: inline; */
+    margin-top: 30px;
+    /* margin-left: 30px; */
+}
+
+.delicious {
+    /* display: inline; */
+    font-family: "Parisienne", cursive;
+    font-size: 2rem;
+    margin: 35px 0 0 10px;
+    padding: 0;
+    line-height: 90%;
+}
+
+.best-food-blog {
+    /* display: inline; */
+    margin: 0 0 0 10px;
+    padding: 0;
+    font-family: "Dosis", sans-serif;
+}
+.d-flex {
+    display: flex;
+}
+header nav section ul {
+    list-style: none;
+    margin-top: 35px;
+    position: absolute;
+    right: 0;
+}
+header nav section ul li {
+    display: inline;
+}
+
+#rss-icon {
+    margin: 0 0 0 10px;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+header hr {
+    border-top: 10px solid #8c8b8b;
+    border-bottom: 1px solid #fff;
+}
+main hr {
+    border-top: 10px solid #8c8b8b;
+    border-bottom: 1px solid #fff;
+}
+.chocolate-pizza {
+    font-family: "Dosis", sans-serif;
+    font-weight: bolder;
+    margin: 50px 0 0 0px;
+    font-size: 2rem;
+}
+
+.posted-date {
+    font-family: "Dosis", sans-serif;
+    font-weight: 400;
+    margin: 0 0 0 30px;
+}
+.choco-pizza {
+    margin: 30px 0 0 0px;
+    width: 100%;
+    /* height: 603px; */
+}
+main article p {
+    display: flex;
+    font-family: "Amiri", serif;
+    line-height: 1.4rem;
+    font-size: 1.3rem;
+    /* padding: 0; */
+    margin: 7px;
+}
+main article {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-top: 4%;
+    margin-left: 2.5%;
+}
+main section img {
+    width: 100%;
+    margin-top: 25px;
+
+    margin-bottom: 30px;
+}
+main {
+    position: relative;
+}
+.fas {
+    position: absolute;
+    right: 0px;
+    font-size: 12px;
+}
+.fas span {
+    font-family: "Dosis", sans-serif;
+}
+main section div ul li {
+    list-style: none;
+    font-family: "Patrick Hand", cursive;
+}
+
+.container-items {
+    position: relative;
+    margin: 0;
+    color: rgb(102, 98, 83);
+}
+.li1 li:first-child {
+    position: absolute;
+    top: 42px;
+    left: 55px;
+    font-size: 25px;
+}
+.li1 li:nth-child(2) {
+    position: absolute;
+    top: 80px;
+    left: 55px;
+    font-size: 25px;
+}
+.li1 li:nth-child(3) {
+    position: absolute;
+    top: 118px;
+    left: 55px;
+    font-size: 25px;
+}
+.li1 li:nth-child(4) {
+    position: absolute;
+    top: 155px;
+    left: 55px;
+    font-size: 25px;
+}
+.li1 li:nth-child(5) {
+    position: absolute;
+    top: 190px;
+    left: 55px;
+    font-size: 25px;
+}
+.li1 li:nth-child(6) {
+    position: absolute;
+    top: 230px;
+    left: 55px;
+    font-size: 25px;
+}
+
+.li2 li:first-child {
+    position: absolute;
+    top: 42px;
+    left: 600px;
+    font-size: 25px;
+}
+
+.li2 li:nth-child(2) {
+    position: absolute;
+    top: 80px;
+    left: 600px;
+    font-size: 25px;
+}
+
+.li2 li:nth-child(3) {
+    position: absolute;
+    top: 118px;
+    left: 600px;
+    font-size: 25px;
+}
+.li2 li:nth-child(4) {
+    position: absolute;
+    top: 155px;
+    left: 600px;
+    font-size: 25px;
+}
+.li2 li:nth-child(5) {
+    position: absolute;
+    top: 190px;
+    left: 600px;
+    font-size: 25px;
+}
+footer img {
+    margin-top: 15px;
+    border-radius: 100px;
+}
+footer h4 {
+    color: rgb(102, 98, 83);
+    margin-bottom: -1%;
+    font-size: 1.3rem;
+    margin-top: 2%;
+}
+.footer-p {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+footer section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+footer section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+button {
+    background-color: #bc7058;
+    width: 200px;
+    height: 50px;
+    color: #ddd;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+}
+#img-container {
+    width: 9%;
+}
+.share-rec {
+    width: 22%;
+    vertical-align: middle;
+}
+footer p {
+    width: 76%;
+    font-family: "Amiri", serif;
+    font-size: 1.3rem;
+    line-height: 20px;
+}
+footer hr {
+    display: block;
+    margin-top: 3%;
+}
+
+.div-copyRights h3 {
+    font-weight: normal;
+    margin-bottom: -1%;
+    font-family: "Amiri", serif;
+}
+.div-copyRights {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    opacity: 60%;
+}
+footer {
+    position: relative;
+}
+.last-logo {
+    position: absolute;
+    margin-left: 48%;
+    margin-top: 1%;
+    border-radius: 0;
+}
+footer h3:first-child {
+    margin-top: 4%;
+}
